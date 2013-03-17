@@ -136,7 +136,7 @@ When the file is imported, `ztaskd` will register the task for running.
 ([Read more about pickling here](http://docs.python.org/tutorial/inputoutput.html#the-pickle-module))
 
 It is a recommended best practice that instead of passing a Django model object 
-to a task, you intead pass along the model's ID or primary key, and re-get 
+to a task, you instead pass along the model's ID or primary key, and re-get 
 the object in the task function.
 
 The @task Decorator
